@@ -17,7 +17,7 @@ export default function Nav({ onMenuClick }: NavProps) {
   };
 
   return (
-    <nav style={{ borderBottom: '1px solid rgba(255,255,255,0.06)', background: 'rgba(10,11,15,0.9)', backdropFilter: 'blur(20px)', position: 'sticky', top: 0, zIndex: 80, height: 64 }}>
+        <nav style={{ borderBottom: '1px solid rgba(255,255,255,0.06)', background: 'rgba(10,11,15,0.9)', backdropFilter: 'blur(20px)', position: 'fixed', top: 0, left: 0, right: 0, width: '100%', zIndex: 9999, height: 64 }}>
       <div style={{ maxWidth: 1440, margin: '0 auto', padding: '0 16px', height: 64, display: 'flex', alignItems: 'center', gap: 12 }}>
         <button
           onClick={onMenuClick}

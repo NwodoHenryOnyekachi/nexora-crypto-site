@@ -105,7 +105,7 @@ export default function AuthModal() {
     <div
       onClick={closeModal}
       style={{
-        position: 'fixed', inset: 0, zIndex: 1000,
+        position: 'fixed', inset: 0, zIndex: 10000,
         background: 'rgba(5,6,9,0.7)', backdropFilter: 'blur(6px)',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
         padding: 20,
